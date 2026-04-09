@@ -1,4 +1,4 @@
-# group14 - transport  and mobility
+# group14 - Transport Rental System
 
 Group members;
 1. Busayo Ayotunde
@@ -8,4 +8,4 @@ Group members;
 5. 5s
 
 Description: 
-Javav console project for -----
+Java console project that allows users to rent, return and manage preffered vehicles.
