@@ -5,7 +5,7 @@ Group members;
 2. Evermore k. Chieza
 3. Baone O. Kantini
 4. Laone N.Lesame
-5. 5s
+5. Tafadzwa Magweregwede 
 
 Description: 
 Java console project that allows users to rent, return and manage preffered vehicles.
