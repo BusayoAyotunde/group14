@@ -27,3 +27,6 @@ Package structure:
 src/outdrive/app
 src/outdrive/model
 src/outdrive/service
+
+Progress:
+- created the project structure
