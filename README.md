@@ -9,3 +9,21 @@ Group members;
 
 Description: 
 Java console project that allows users to rent, return and manage preffered vehicles.
+
+Class list:
+okay so the class list:
+- Vehicle(parent)
+- Car (extens Vehicle)
+- Bicycle (extends Vehicle)
+- Motorcycle (extends Vehicle)
+- User
+- Rental
+- VehicleService
+- UserService
+- RentalService
+- Main - for the menu
+
+Package structure:
+src/outdrive/app
+src/outdrive/model
+src/outdrive/service
