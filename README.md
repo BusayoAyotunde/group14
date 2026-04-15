@@ -31,3 +31,4 @@ src/outdrive/service
 Progress:
 - created the project structure
 - updated Vehicle and Car classes
+- updated Bicycle and Motorcycle classes 
