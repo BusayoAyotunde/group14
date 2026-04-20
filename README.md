@@ -44,6 +44,10 @@ Milestone3(each memebr should write what they did in mlestone 3)
 - Updated Vehicle class to abstract
 - Updated Rental cost method in Vehicle class to abstract
 - Updated rental cost method in Car class to support abstract class in parent class
+- Seccessfully tested the Vehicle and Car classes on a temporary code. Results:
+Toyota
+500.0
+1100.0
 - .....
 - ......
 - .....
