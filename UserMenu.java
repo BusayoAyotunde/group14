@@ -15,8 +15,8 @@ public class UserMenu {
 
 
         while(true) {
-
-            System.out.println("\n===== WELCOME " + user.getName() + " =====");
+            System.out.println("\n===== OUTDRIVE USER MENU =====");
+            System.out.println("WELCOME " + user.getName());
             System.out.println("1. View Available Vehicles");
             System.out.println("2. Rent Vehicle");
             System.out.println("3. Return Vehicle");
@@ -30,7 +30,9 @@ public class UserMenu {
 
                 if (scanner.hasNextInt()) {
                     choice = scanner.nextInt();
+                    scanner.nextLine();
                     break;
+                    
                 } else {
                     System.out.println("Invalid input. Please enter a number.");
                     scanner.next();
