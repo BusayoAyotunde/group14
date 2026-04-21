@@ -47,11 +47,14 @@ public class Main {
 
                         if (user != null) {
                             UserMenu.userMenu(scanner,user,vehicleService,rentalService);
+                        } else {
+                            System.out.println("Login failed. Try Again.");
                         }
                         break;
 
                         case 3:
                             System.out.println("Exiting system...");
+                            scanner.close();
                             return;
 
                             default:
