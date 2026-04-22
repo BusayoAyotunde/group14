@@ -55,3 +55,8 @@ Toyota
 - improved user interface formatting by updating system headers
 - updated menu display by separating system title and user welcome message for better readability
 - refactored console output to improve clarity and consistency in user navigation
+- Main.java improvements
+- added input validationb logic to handle non-integer menu inputs safely using a validation loop
+- implemented else block to handle failed login attempts and display appropriate feedback to the user
+- added scanner.close() on exit to properly release system resources and improve program hygiene
+- improved user flow control between login, menu access, and system exit
