@@ -22,9 +22,11 @@ public class Bicycle extends Vehicle {
 
     @Override
     public double calculateRentalCost(int days) {
+        double cost = super.calculateRentalCost(days);
+
         if (isElectric){
-            return super.calculateRentalCost(days) + 20; // extra charge for electric bike
+            cost *= 1.2;
         }
-        return super.calculateRentalCost(days);
+        return cost;
     }
 }

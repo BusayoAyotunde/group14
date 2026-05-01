@@ -43,11 +43,26 @@ public class Main {
                     System.out.print("Name: ");
                         String name = scanner.nextLine();
 
+                        if(name.isBlank()) {
+                            System.out.println("Name cannot be empty");
+                            break;
+                        }
+
                         System.out.print("Phone: ");
                         String phone = scanner.nextLine();
 
+                        if (phone.isBlank()) {
+                            System.out.println("Phone cannot be empty");
+                            break;
+                        }
+
                         System.out.print("Password: ");
-                     String regPassword = scanner.nextLine();
+                        String regPassword = scanner.nextLine();
+
+                        if(regPassword.isBlank()) {
+                            System.out.println("Password cannot be empty");
+                            break;
+                        }
 
                         userService.addUser(name, phone, regPassword); 
                         
@@ -57,8 +72,18 @@ public class Main {
                         System.out.print("ID: ");
                         String id = scanner.nextLine();
 
+                        if (id.isBlank()) {
+                            System.out.println("ID cannot be empty");
+                            break;
+                        }
+
                         System.out.print("Password: ");
                         String password = scanner.nextLine();
+
+                        if (password.isBlank()) {
+                            System.out.println("Password cannot be empty");
+                            break;
+                        }
 
                         User user = userService.login(id, password);
 

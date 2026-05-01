@@ -52,6 +52,9 @@ public abstract class Vehicle {
     }
 
     public double calculateRentalCost(int days) {
+        if(days <= 0) {
+            throw new IllegalArgumentException("Days must be greater than 0");
+        }
         return price * days;
     }
 }

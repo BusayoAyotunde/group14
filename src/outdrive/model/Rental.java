@@ -69,15 +69,15 @@ public class Rental {
         this.status = status;
     }
 
-    // Method to display rental details in a readable format
-    public void displayInfo() {
-        System.out.println(
-            "Rental ID: " + rentalId +
-            ", Customer: " + user.getName() +
-            ", Vehicle: " + vehicle.getName() +
-            ", Cost: P" + totalCost +
-            ", Status: " + status
-        );
+    @Override
+    public String toString() {
+        return "Rental ID:" + rentalId + 
+        " | Customer:" + user.getName() + 
+        " | Vehicle:" + vehicle.getName() +
+        " | Cost: P" + totalCost +
+        " | Status:" + status;
     }
-}
+    
+    }
+
 

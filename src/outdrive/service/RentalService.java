@@ -66,4 +66,5 @@ public class RentalService {
         }
         System.out.println("Total revenue: P" + String.format("%.2f", total));
     }
-}
+} 
+

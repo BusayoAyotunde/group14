@@ -22,6 +22,6 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public double calculateRentalCost(int days) {
-        return super.calculateRentalCost(days) + 50;
+        return super.calculateRentalCost(days) * 1.15;
     }
 }

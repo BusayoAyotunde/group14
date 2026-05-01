@@ -41,16 +41,16 @@ public class UserMenu {
             switch (choice) {
 
                 case 1:
-                    vehicleService.showAvailable();
+                    vehicleService.viewAvailable();
                     break;
 
                 case 2:
-                    vehicleService.showAvailable();
+                    vehicleService.viewAvailable();
 
                     System.out.print("Enter vehicle ID: ");
-                    String id = scanner.nextLine();
+                    String vehicleId = scanner.nextLine();
 
-                    Vehicle vehicle = vehicleService.findById(id);
+                    Vehicle vehicle = vehicleService.findById(vehicleId);
 
                     if (vehicle == null) {
                         System.out.println("Vehicle not found.");
@@ -73,8 +73,8 @@ public class UserMenu {
 
                 case 3:
                      System.out.print("Enter rental ID: ");
-                     String rentalId = scanner.nextLine();
-                     rentalService.returnVehicle(rentalId);
+                     String rId = scanner.nextLine();
+                     rentalService.returnVehicle(rId);
                    break;
 
                 case 4:
