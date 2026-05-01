@@ -14,7 +14,9 @@ Features
 How to Compile and Run
 
 1. Navigate to the project folder
+```bash
  cd path/to/src
+```
 2. Compile all Java files
 ```bash
 javac -d out src/outdrive/app/*.java src/outdrive/model/*.java src/outdrive/service/*.java src/outdrive/exceptions/*.java
