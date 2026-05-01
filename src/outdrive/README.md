@@ -15,7 +15,7 @@ How to Compile and Run
 
 1. Navigate to the project folder
 ```bash
- cd path/to/src
+ cd BusayoAyotunde/group14
 ```
 2. Compile all Java files
 ```bash
